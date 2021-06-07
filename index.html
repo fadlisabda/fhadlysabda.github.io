@@ -8,10 +8,13 @@
     <!-- Bootstrap CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- MY CSS -->
     <link rel="stylesheet" href="bootstrap/css/style.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
-    <title>My Portfolio | Fhadly Sabda D</title>
+    <title>My Portfolio | Fhadly</title>
   </head>
   <body id="home">
     <!-- Navbar  -->
@@ -35,11 +38,12 @@
       </div>
     </nav>
     <!-- Akhir Navbar -->
+
     <!-- Awal Jumbotron -->
     <section class="jumbotron text-center">
       <img src="gambar/profile.jpg" alt="gambar tidak ada" width="200" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">Fhadly Sabda Dinov</h1>
-      <p class="lead">College Student | Web Developer</p>
+      <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#fff"
@@ -49,6 +53,7 @@
       </svg>
     </section>
     <!-- Akhir Jumbotron -->
+
     <!-- Awal About -->
     <section id="about">
       <div class="container">
@@ -58,8 +63,10 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">Perkenalkan Nama panggilan saya Fadli, Saya sangat bersemangat Belajar, Saya Telah Membuat Situs Web Untuk Orang Dan Menghasilkan Uang</div>
-          <div class="col-md-4">Anda Dapat Melihat Kode Yang Saya Buat Di Github Dengan Mengklik Nama Saya Di Bagian Bawah Situs Web Ini</div>
+          <div class="col-md-4" data-aos="fade-right">
+            Perkenalkan Nama panggilan saya Fadli, Saya sangat bersemangat Belajar, Saya Telah Membuat Situs Web Untuk Orang Dan Menghasilkan Uang.Di Kuliah Mata Pelajaran Web Platform Saya Mendapatkan Nilai A.
+          </div>
+          <div class="col-md-4" data-aos="fade-left" data-aos-delay="200">Anda Dapat Melihat Kode Yang Saya Buat Di Github Dengan Mengklik Nama Saya Di Bagian Bawah Situs Web Ini.</div>
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -71,6 +78,7 @@
       </svg>
     </section>
     <!-- Akhir About -->
+
     <!-- Projects -->
     <section id="projects">
       <div class="container">
@@ -81,7 +89,7 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500">
               <img src="gambar/1.png" class="card-img-top" alt="gambar tidak ada" />
               <div class="card-body">
                 <p class="card-text">Website Pengelolaan Nilai Mahasiswa Dibuat Dengan Codeigniter 3 Dan Bootstrap 4</p>
@@ -89,7 +97,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
               <img src="gambar/2.png" class="card-img-top" alt="gambar tidak ada" />
               <div class="card-body">
                 <p class="card-text">Website Sistem Login Dan Registrasi Dengan Codeigniter 4 Menggunakan Library Myth Auth</p>
@@ -97,7 +105,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
               <img src="gambar/3.png" class="card-img-top" alt="gambar tidak ada" />
               <div class="card-body">
                 <p class="card-text">Website Pengelolaan Buku Menggunakan Codeigniter 4 Dan Bootstrap 4</p>
@@ -115,6 +123,42 @@
       </svg>
     </section>
     <!-- Akhir Projects -->
+
+    <!-- MyBook -->
+    <section id="mybook">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>My Book</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <img src="gambar/gallery/thumbnail/1.jpg" alt="Gambar Tidak Ada" class="img-fluid book-img" />
+          </div>
+          <div class="col-md-3">
+            <img src="gambar/gallery/thumbnail/2.jpg" alt="Gambar Tidak Ada" class="img-fluid book-img" />
+          </div>
+          <div class="col-md-3">
+            <img src="gambar/gallery/thumbnail/3.jpg" alt="Gambar Tidak Ada" class="img-fluid book-img" />
+          </div>
+          <div class="col-md-3">
+            <img src="gambar/gallery/thumbnail/4.jpg" alt="Gambar Tidak Ada" class="img-fluid book-img" />
+          </div>
+          <div class="col-md-3">
+            <img src="gambar/gallery/thumbnail/5.jpg" alt="Gambar Tidak Ada" class="img-fluid book-img" />
+          </div>
+          <div class="col-md-3">
+            <img src="gambar/gallery/thumbnail/6.jpg" alt="Gambar Tidak Ada" class="img-fluid book-img" />
+          </div>
+          <div class="col-md-3">
+            <img src="gambar/gallery/thumbnail/7.jpg" alt="Gambar Tidak Ada" class="img-fluid book-img" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir MyBook -->
+
     <!-- Contact -->
     <section id="contact">
       <div class="container">
@@ -160,16 +204,43 @@
       </svg>
     </section>
     <!-- Akhir Contact -->
+
     <!-- Footer -->
     <footer class="bg-warning text-center pb-5">
       <p>
         Created with
         <i class="bi bi-cup-fill"></i>
-        by <a href="https://github.com/fadlisabda" target="_blank" class="text-dark fw-bold">Fhadly Sabda Dinov</a>
+        by <a href="https://github.com/fadlisabda?tab=repositories" target="_blank" class="text-dark fw-bold">Fhadly Sabda Dinov</a>
       </p>
     </footer>
     <!-- Akhir Footer -->
+
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const bookImage = document.querySelectorAll(".book-img");
+      bookImage.forEach((img, i) => {
+        img.dataset.aos = "fade-down";
+        img.dataset.aosDelay = i * 100;
+        img.dataset.aosDuration = 1000;
+      });
+      AOS.init({
+        once: true,
+        duration: 2000,
+      });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/TextPlugin.min.js"></script>
+
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to(".lead", { duration: 2, delay: 1.5, text: "Informatics Engineering Student | Web Developer" });
+      gsap.from(".jumbotron img", { duration: 1, rotateY: 360, opacity: 0 });
+      gsap.from(".navbar", { duration: 1.5, y: "-100", opacity: 0, ease: "bounce" });
+      gsap.from(".display-4", { duration: 1, x: "-50", opacity: 0, delay: 0.5, ease: "back" });
+    </script>
 
     <script>
       const scriptURL = "https://script.google.com/macros/s/AKfycbxct9azkKaLc3ej02aecINd_jIrhQVubhVeGMt1LiorP8nAOvYCn9s5LMZTzT-IDLYC/exec";

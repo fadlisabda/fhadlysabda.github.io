@@ -10,3 +10,11 @@
 section {
   padding-top: 5rem;
 }
+
+.book-img {
+  width: 100%;
+}
+
+#mybook .row > * {
+  padding: 0;
+}
